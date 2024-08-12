@@ -1,5 +1,5 @@
 # epics-msc-mods
-open source of all of my mods I have ever released on nexusmods.com
+open source of almost all of my mods I have ever released on nexusmods.com
 
 I am leaving MSC completely, simply put. The community, modding, and even the mods page (not leaving Nexus Mods entirely, just the My Summer Car page.)
 Why?
