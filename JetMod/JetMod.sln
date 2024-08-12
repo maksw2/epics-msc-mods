@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JetMod", "JetMod\JetMod.csproj", "{0C855DDF-55FC-46D4-A282-1CD5B1AB33D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C855DDF-55FC-46D4-A282-1CD5B1AB33D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C855DDF-55FC-46D4-A282-1CD5B1AB33D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C855DDF-55FC-46D4-A282-1CD5B1AB33D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C855DDF-55FC-46D4-A282-1CD5B1AB33D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F5764A1-C7FF-43A9-8A1D-2DDE7AB831DA}
+	EndGlobalSection
+EndGlobal
