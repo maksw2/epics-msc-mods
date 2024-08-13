@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: 6aafff371f58b2d41821196ab8f9b29d
+timeCreated: 1694672689
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bracket
+    100002: controller
+    100004: controller_cable
+    100006: controller_cable_connect
+    100008: Cube
+    100010: Cylinder
+    100012: dashboard
+    100014: datsun_body
+    100016: datsun_cowl_parts
+    100018: Fan
+    100020: Fan_blur
+    100022: fuel_tank
+    100024: fuel_tank_pipe
+    100026: jet
+    100028: Jet_Exit
+    100030: //RootNode
+    100032: Sun
+    100034: waterpump
+    100036: waterpump_linein
+    100038: waterpump_linein_off
+    100040: waterpump_lineout
+    100042: waterpump_lineout_off
+    100044: waterpump_wiring
+    100046: waterpump_wiring_off
+    100048: 35L Tank
+    100050: Cap
+    100052: Handle
+    100054: waterpump_lineincustom
+    100056: 60L Tank
+    100058: Jet
+    100060: Jet.002
+    100062: JetGrill
+    100064: coll
+    100066: thanknote
+    100068: thanknote.001
+    400000: bracket
+    400002: controller
+    400004: controller_cable
+    400006: controller_cable_connect
+    400008: Cube
+    400010: Cylinder
+    400012: dashboard
+    400014: datsun_body
+    400016: datsun_cowl_parts
+    400018: Fan
+    400020: Fan_blur
+    400022: fuel_tank
+    400024: fuel_tank_pipe
+    400026: jet
+    400028: Jet_Exit
+    400030: //RootNode
+    400032: Sun
+    400034: waterpump
+    400036: waterpump_linein
+    400038: waterpump_linein_off
+    400040: waterpump_lineout
+    400042: waterpump_lineout_off
+    400044: waterpump_wiring
+    400046: waterpump_wiring_off
+    400048: 35L Tank
+    400050: Cap
+    400052: Handle
+    400054: waterpump_lineincustom
+    400056: 60L Tank
+    400058: Jet
+    400060: Jet.002
+    400062: JetGrill
+    400064: coll
+    400066: thanknote
+    400068: thanknote.001
+    2300000: bracket
+    2300002: controller
+    2300004: controller_cable
+    2300006: controller_cable_connect
+    2300008: Cube
+    2300010: Cylinder
+    2300012: dashboard
+    2300014: datsun_body
+    2300016: datsun_cowl_parts
+    2300018: Fan
+    2300020: Fan_blur
+    2300022: fuel_tank
+    2300024: fuel_tank_pipe
+    2300026: jet
+    2300028: Jet_Exit
+    2300030: waterpump
+    2300032: waterpump_linein
+    2300034: waterpump_linein_off
+    2300036: waterpump_lineout
+    2300038: waterpump_lineout_off
+    2300040: waterpump_wiring
+    2300042: waterpump_wiring_off
+    2300044: 35L Tank
+    2300046: Cap
+    2300048: Handle
+    2300050: waterpump_lineincustom
+    2300052: 60L Tank
+    2300054: Jet
+    2300056: Jet.002
+    2300058: JetGrill
+    2300060: coll
+    2300062: thanknote
+    2300064: thanknote.001
+    3300000: bracket
+    3300002: controller
+    3300004: controller_cable
+    3300006: controller_cable_connect
+    3300008: Cube
+    3300010: Cylinder
+    3300012: dashboard
+    3300014: datsun_body
+    3300016: datsun_cowl_parts
+    3300018: Fan
+    3300020: Fan_blur
+    3300022: fuel_tank
+    3300024: fuel_tank_pipe
+    3300026: jet
+    3300028: Jet_Exit
+    3300030: waterpump
+    3300032: waterpump_linein
+    3300034: waterpump_linein_off
+    3300036: waterpump_lineout
+    3300038: waterpump_lineout_off
+    3300040: waterpump_wiring
+    3300042: waterpump_wiring_off
+    3300044: 35L Tank
+    3300046: Cap
+    3300048: Handle
+    3300050: waterpump_lineincustom
+    3300052: 60L Tank
+    3300054: Jet
+    3300056: Jet.002
+    3300058: JetGrill
+    3300060: coll
+    3300062: thanknote
+    3300064: thanknote.001
+    4300000: jet
+    4300002: bracket
+    4300004: controller
+    4300006: controller_cable
+    4300008: datsun_body
+    4300010: dashboard
+    4300012: controller_cable_connect
+    4300014: waterpump
+    4300016: fuel_tank_pipe
+    4300018: fuel_tank
+    4300020: waterpump_linein
+    4300022: waterpump_linein_off
+    4300024: waterpump_lineout
+    4300026: waterpump_lineout_off
+    4300028: datsun_cowl_parts
+    4300030: waterpump_wiring
+    4300032: waterpump_wiring_off
+    4300034: Cube
+    4300036: Fan
+    4300038: Jet_Exit
+    4300040: Fan_blur
+    4300042: Cylinder
+    4300044: 35L Tank
+    4300046: Cap
+    4300048: Handle
+    4300050: waterpump_lineincustom
+    4300052: 60L Tank
+    4300054: Jet
+    4300056: Jet.002
+    4300058: JetGrill
+    4300060: coll
+    4300062: thanknote
+    4300064: thanknote.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

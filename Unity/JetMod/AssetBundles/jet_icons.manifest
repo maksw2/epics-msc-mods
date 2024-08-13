@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1989814401
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6036b8980b9906252b4dfb23d7d49d98
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 75957c18d05791510cbdd301a328d69f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/JetModRecovered/AchievementIcons/jetmod_Burnt.png
+- Assets/JetModRecovered/AchievementIcons/jetmod_Detach.png
+- Assets/JetModRecovered/AchievementIcons/jetmod_Startup.png
+Dependencies: []
