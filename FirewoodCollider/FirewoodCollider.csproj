@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FirewoodCollider</RootNamespace>
     <AssemblyName>FirewoodCollider</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -29,19 +31,20 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>D:\Games\steamapps\common\My Summer Car\mysummercar_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\My Summer Car\mysummercar_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>D:\Games\steamapps\common\My Summer Car\mysummercar_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\My Summer Car\mysummercar_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="MSCLoader">
-      <HintPath>D:\Games\steamapps\common\My Summer Car\mysummercar_Data\Managed\MSCLoader.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\My Summer Car\mysummercar_Data\Managed\MSCLoader.dll</HintPath>
     </Reference>
     <Reference Include="PlayMaker">
-      <HintPath>D:\Games\steamapps\common\My Summer Car\mysummercar_Data\Managed\PlayMaker.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\My Summer Car\mysummercar_Data\Managed\PlayMaker.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -50,7 +53,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\Games\steamapps\common\My Summer Car\mysummercar_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\My Summer Car\mysummercar_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -59,15 +62,4 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>if "$(ConfigurationName)" == "Debug" (
-copy "$(TargetPath)" "C:\Users\epicduck\Documents\MySummerCar\Mods" /y
-copy "$(TargetDir)$(TargetName).pdb" "C:\Users\epicduck\Documents\MySummerCar\Mods" /y
-cd "C:\Users\epicduck\Documents\MySummerCar\Mods"
-call "C:\Users\epicduck\Documents\MySummerCar\Mods\debug.bat"
-) ELSE (
-copy "$(TargetPath)" "C:\Users\epicduck\Documents\MySummerCar\Mods" /y
-)
-</PostBuildEvent>
-  </PropertyGroup>
 </Project>
